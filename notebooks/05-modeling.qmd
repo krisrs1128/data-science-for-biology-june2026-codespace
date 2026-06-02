@@ -48,8 +48,9 @@ plot_timecourse(genes, "log_gene")
 
 ```{r}
 # step 3: generate and plot simulations
-# Use simulate() to create new response values
-# Store in genes$simulated and plot with plot_timecourse()
+# Hint: Use simulate() to create new response values
+#    Store result as a new column in genes
+#    Plot using plot_timecourse with y_col = name of your simulation column
 ```
 
 ## Part 3 — Reach (optional)
